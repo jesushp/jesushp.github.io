@@ -1,0 +1,96 @@
+.container {
+  max-width: 960px;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #999;
+  transition: ease-in-out color .15s;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #333;
+  border-radius: 21px;
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+.product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  padding-top: 10%;
+  content: "Hack the Journey";
+  font-size: 24px;
+  color: #fff;
+  background-color: rgba(0, 125, 255, .1);
+  border-radius: 5px;
+}
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #e5e5e5;
+}
+
+div#fondo-foto {
+  background-image: url(https://spanishstartups.es/wp-content/uploads/2018/11/Captura-de-pantalla-2018-06-04-a-las-11.16.18.png?11371e&11371e);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+div#fondo-impact {
+  background-image: url(https://madrid.impacthub.net/wp-content/uploads/2018/01/GRAFICO-3pilares.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+div#fondo-hub_madrid {
+  background-image: url(https://socialenterprise.es/wp-content/uploads/2017/10/6737_MG_0595.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+div#fondo-startups {
+  background-image: url(https://secure.meetupstatic.com/photos/event/d/0/9/1/600_471773393.jpeg);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden { overflow: hidden; }
