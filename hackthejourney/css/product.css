@@ -78,6 +78,24 @@ div#fondo-startups {
   background-repeat: no-repeat;
   background-position: center top;
 }
+div#fondo-guides {
+  background-image: url(../img/guidesmiths-logo.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: auto 300px;
+}
+div#fondo-api_call {
+  background-image: url(https://cdn0.iconfinder.com/data/icons/cloud-theme/154/cloud-call-512.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: auto 300px;
+}
+div#fondo-factores {
+  background-image: url(https://wi-images.condecdn.net/image/doEYpG6Xd87/crop/810/f/weather.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: auto 300px;
+}
 /*
  * Extra utilities
  */

@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="icon" href="./favicon.ico">
 
-    <title>Carousel Template for Bootstrap</title>
+    <title>Amadeus | Hack the Journey</title>
 
     <!-- Bootstrap core CSS -->
     <link href="./css/bootstrap.min.css" rel="stylesheet">
@@ -221,13 +221,13 @@ cada año. Hoy son más de 15 000 profesionales. </p>
 		/* Get iframe src attribute value i.e. YouTube video url
 		and store it in a variable */
 		var url = $("#video").attr('src');
-	
+
 		/* Assign empty url value to the iframe src attribute when
 		modal hide, which stop the video playing */
 		$("#videoModal").on('hide.bs.modal', function(){
 			$("#video").attr('src', '');
 		});
-	
+
 		/* Assign the initially stored url back to the iframe src
 		attribute when modal is displayed again */
 		$("#videoModal").on('show.bs.modal', function(){
